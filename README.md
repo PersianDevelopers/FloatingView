@@ -5,6 +5,12 @@
 Next time that an android guy/girl ask you to create a floating button, you have something to show.
 Floating View is a view on top of all views. you can have navigation controller, Tabbar contoller or anything. it goes on top of everyview and will be presented everywhere.
 
+# Installation with CocoaPods
+
+```ruby
+pod 'FloatingView', '~> 0.0.3'
+```
+
 # Plug and Play
 
 Add FloatingView.swift to your Project
