@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32838EF91ECB82EF000B78EB /* FloatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32838EF81ECB82EF000B78EB /* FloatingView.swift */; };
 		32C988091EBFDECC004028A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C988081EBFDECC004028A6 /* AppDelegate.swift */; };
 		32C9880B1EBFDECD004028A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9880A1EBFDECD004028A6 /* ViewController.swift */; };
 		32C9880E1EBFDECD004028A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C9880C1EBFDECD004028A6 /* Main.storyboard */; };
@@ -15,6 +14,7 @@
 		32C988131EBFDECE004028A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C988111EBFDECE004028A6 /* LaunchScreen.storyboard */; };
 		32C9881E1EBFDED6004028A6 /* FloatingButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9881D1EBFDED6004028A6 /* FloatingButtonTests.swift */; };
 		32C988291EBFDED7004028A6 /* FloatingButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C988281EBFDED7004028A6 /* FloatingButtonUITests.swift */; };
+		32F0FC8D1ED0A062001DE2F4 /* FloatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F0FC8C1ED0A062001DE2F4 /* FloatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		32838EF81ECB82EF000B78EB /* FloatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingView.swift; sourceTree = "<group>"; };
 		32C988051EBFDECC004028A6 /* FloatingButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatingButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C988081EBFDECC004028A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32C9880A1EBFDECD004028A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		32C988241EBFDED7004028A6 /* FloatingButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C988281EBFDED7004028A6 /* FloatingButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButtonUITests.swift; sourceTree = "<group>"; };
 		32C9882A1EBFDED7004028A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F0FC8C1ED0A062001DE2F4 /* FloatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatingView.swift; path = Classes/FloatingView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +76,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		32838EF71ECB82EF000B78EB /* FloatingView */ = {
+		32838EF71ECB82EF000B78EB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				32838EF81ECB82EF000B78EB /* FloatingView.swift */,
+				32F0FC8C1ED0A062001DE2F4 /* FloatingView.swift */,
 			);
+			name = Classes;
 			path = FloatingView;
 			sourceTree = SOURCE_ROOT;
 		};
@@ -107,7 +108,7 @@
 		32C988071EBFDECC004028A6 /* FloatingButton */ = {
 			isa = PBXGroup;
 			children = (
-				32838EF71ECB82EF000B78EB /* FloatingView */,
+				32838EF71ECB82EF000B78EB /* Classes */,
 				32C988081EBFDECC004028A6 /* AppDelegate.swift */,
 				32C9880A1EBFDECD004028A6 /* ViewController.swift */,
 				32C9880C1EBFDECD004028A6 /* Main.storyboard */,
@@ -271,7 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32C9880B1EBFDECD004028A6 /* ViewController.swift in Sources */,
-				32838EF91ECB82EF000B78EB /* FloatingView.swift in Sources */,
+				32F0FC8D1ED0A062001DE2F4 /* FloatingView.swift in Sources */,
 				32C988091EBFDECC004028A6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
